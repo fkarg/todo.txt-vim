@@ -40,6 +40,10 @@ nnoremap <script> <silent> <buffer> <localleader>b :call todo#txt#prioritize_add
 vnoremap <script> <silent> <buffer> <localleader>b :call todo#txt#prioritize_add('B')<CR>
 nnoremap <script> <silent> <buffer> <localleader>c :call todo#txt#prioritize_add('C')<CR>A
 vnoremap <script> <silent> <buffer> <localleader>c :call todo#txt#prioritize_add('C')<CR>
+nnoremap <script> <silent> <buffer> <localleader>d :call todo#txt#prioritize_add('D')<CR>A
+vnoremap <script> <silent> <buffer> <localleader>d :call todo#txt#prioritize_add('D')<CR>
+nnoremap <script> <silent> <buffer> <localleader>r :call todo#txt#remove_priority()<CR>A
+vnoremap <script> <silent> <buffer> <localleader>r :call todo#txt#remove_priority()<CR>
 
 " Insert date {{{2
 inoremap <script> <silent> <buffer> date<Tab> <C-R>=strftime("%Y-%m-%d")<CR>

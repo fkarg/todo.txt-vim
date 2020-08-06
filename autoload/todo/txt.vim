@@ -21,6 +21,10 @@ function! s:remove_priority()
     :s/^(\w)\s\+//ge
 endfunction
 
+function! todo#txt#remove_priority()
+    :s/^(\w)\s\+//ge
+endfunction
+
 function! s:get_current_date()
     return strftime('%Y-%m-%d')
 endfunction

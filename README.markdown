@@ -42,7 +42,7 @@ Edit priority:
 `<localleader>r`   Remove priority from current line
 
 Date:
-`<localleader>d`   Set current task's creation date to the current date
+`<localleader>t`   Set current task's creation date to the current date
 `date<tab>`        (Insert mode) Insert the current date
 
 Mark as done:
